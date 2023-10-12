@@ -202,3 +202,66 @@
   color: rgb(0, 45, 180);
 }
 /* end of CSS */
+
+/* CSS Andhika */
+
+.main {
+  display: flex;
+  height: 420px;
+  width: 445px;
+  flex-direction: column;
+  margin: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: grey;
+  box-shadow: 2px 2px 0 black;
+}
+
+.molad-title,.molad-desc,.link {
+  padding-left: 15px;
+  padding-right: 8px;
+}
+
+.gambar {
+  display: flex;
+  height: 220px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 4px;
+
+ }
+
+.molad-title {
+  margin-top: 8px;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.molad-desc {
+  flex: 1;
+  max-width: 500px;
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+.link {
+
+  color: blue;
+  font-size: 20px;
+  position: bottom;
+  object-position: bottom;
+}
+
+.link:hover {
+  cursor: pointer;
+  color:lightblue;
+}
+
+.link:active {
+  color:red;
+  cursor: progress;
+}
+
+/* CSS Andhika */
